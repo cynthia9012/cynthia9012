@@ -109,6 +109,44 @@
             <textarea name="tell" rows="7" cols="70"></textarea>
         </div>
     </fieldset>
-     
+
+    <fieldset>
+        <legend>Selections</legend>
+        <div class="field">
+            <label>Do you like our Corporation?</label>
+            <input type="radio" name="do" value="yes">
+            "Yes"
+            <input type="radio" name="do" value="no">
+            "No"
+        </div>
+        <div class="field">
+            <label>Select your area of expertise:</label>
+            <h1></h1>
+            <input type="checkbox" name="select" value="Finance">
+            Finance <br>
+            <input type="checkbox" name="select" value="art">
+            Art & Graphics <br>
+            <input type="checkbox" name="select" value="math">
+            Data & Math <br>
+            <input type="checkbox" name="select" value="computer">
+            Computer Engineering <br>
+            <input type="checkbox" name="select" value="human">
+            HR management & Leadership<br>
+            <input type="checkbox" name="select" value="other">
+            Other (Please specify in your resume)<br>
+        </div>
+    </fieldset>
+    <fieldset>
+        <label>Upload your full resume here:</label>
+        <h1></h1>
+        <form action="/action_page".php>
+         <input type="file" id="myFile" name="file">
+        <input type="submit" value="Confirm Upload"> 
+    </form>
+    </fieldset>
+    <form name="input" action="html_form_action.asp" method="post">Your submission will go towards the server "html_form_action.asp"
+    
+        <input type="submit" value="Submit full form">
+    </form>
 </body>
 </html>
